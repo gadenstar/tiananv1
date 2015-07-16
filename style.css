@@ -1214,6 +1214,41 @@ ul.uk-dotnav {
 #comments .comment-respond .form-allowed-tags {
   display: none;
 }
+.measure {
+  background-color: #566893;
+  padding: 25px 0;
+}
+.measure .uk-h1 {
+  margin-top: 15px;
+}
+.measure .uk-h1 span {
+  font-size: 50px;
+  padding: 0 15px;
+}
+.measure p.ps span {
+  font-size: 12px;
+  color: #eee;
+}
+.measure .wpcf7-form-control-wrap {
+  line-height: 50px;
+}
+.measure .uk-grid {
+  margin: 15px 0;
+}
+.measure input {
+  padding: 10px;
+  border: 0;
+  border-radius: 4px;
+}
+.measure input.wpcf7-submit {
+  background: #F2D142;
+  width: 50%;
+  color: #566893;
+  font-size: 18px;
+}
+.measure input.wpcf7-submit:hover {
+  background-color: #f5dd72;
+}
 .widget-area > div aside {
   margin-bottom: 20px;
   -ms-word-wrap: break-word;
