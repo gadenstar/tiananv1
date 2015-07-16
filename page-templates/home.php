@@ -12,7 +12,20 @@ get_header(); ?>
 <div class="home-slider">
 	<?php nii_slideshow(); ?>
 </div>
-
+<div class="uk-block measure uk-contrast">
+  <div class="uk-container uk-container-center">
+    <div class="uk-grid">
+      <div class="uk-width-1-2 ">
+        <h2 class="uk-h1 uk-text-center ">设计师<span>免费上门</span>量房.</h2>
+        <p class="uk-margin-bottom-remove ps"><span>上门量房目前仅限耒阳市地区.</span></p>
+        <p class="uk-margin-top-remove ps"><span>上门量房目前仅限耒阳市地区.</span></p>
+      </div>
+      <div class="uk-width-1-2">
+            <?php echo do_shortcode("[contact-form-7 id='358' title='量房']"); ?>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="uk-block advantage">
 	<div class="uk-container uk-container-center">
 			<div class="uk-text-center section-title">
