@@ -13,10 +13,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
 <?php
 if(vp_option('vpt_option.keywords')!=''):
-		echo '<meta name="Keywords" content="'.vp_option('vpt_option.keywords').'" />';
+		echo '<meta name="keywords" content="'.vp_option('vpt_option.keywords').'" />';
 endif;
 if(vp_option('vpt_option.description')!=''):
-		echo '<meta name="Description" content="'.vp_option('vpt_option.description').'" />';
+		echo '<meta name="description" content="'.vp_option('vpt_option.description').'" />';
 endif;
 ?>
 
