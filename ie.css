@@ -1,0 +1,80 @@
+a.uk-navbar-toggle {
+  display: none;
+}
+.uk-navbar-brand:before {
+  display:inline;
+}
+.nav2 {
+  border-bottom: 1px solid #ebebeb;
+}
+.hexbox .uk-width-large-1-2{
+  width: 50%;
+}
+.hexbox .hex {
+  height: auto;
+  margin: 5px;
+  padding-top: 10px;
+}
+.advantage .uk-width-large-1-4  {
+  width: 25%;
+}
+.advantage .uk-width-large-1-4  .block{
+  visibility: visible !important;
+}
+.flow .uk-width-large-1-6 {
+  width: 16.6%;
+}
+.flow .uk-width-large-1-6 .uk-h3 {
+  color: #fff;
+}
+.gird-box {
+  width: 25%;
+  float: left;
+}
+.uk-width-medium-3-10 {
+  width: 30%;
+}
+.uk-width-medium-7-10 {
+  width: 70%;
+}
+.uk-width-medium-1-4 {
+  width: 25%;
+}
+.uk-width-medium-3-4 {
+  width: 75%;
+}
+.clients ul li {
+  width: 20%;
+  margin-bottom: 20px;
+}
+.teams ul li {
+  width: 25%;
+  margin-bottom: 20px;
+}
+.teams .uk-overlay-panel {
+  top: auto;
+  bottom: 0;
+}
+.teams .uk-overlay-panel div{
+ background: #ebebeb;
+ color: #555;
+}
+.teams .uk-overlay-panel div .uk-h3{
+ border-bottom-color: #555;
+}
+.clients .uk-slidenav {
+  display: none;
+}
+.footer-contact .uk-width-medium-1-6 {
+  width: 16.6%;
+}
+.footer-contact .uk-width-medium-2-6 {
+  width: 33.3%;
+}
+.site-footer .uk-width-medium-1-2 {
+  width: 50%;
+}
+.site-footer  .uk-align-medium-left {
+  float: left;
+  margin-right: 5px;
+}
