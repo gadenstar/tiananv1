@@ -2,7 +2,7 @@
 
 return array(
 	'id'          => 'post_set',
-	'types'       => array('post'),
+	'types'       => array('post','page','events'),
 	'title'       => __('SEO设置', 'vp_textdomain'),
 	'priority'    => 'high',
 	'template'    => array(

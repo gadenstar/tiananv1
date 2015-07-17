@@ -7,19 +7,23 @@
  * @package nii_framework
  */
 ?><!DOCTYPE html>
+<?php
+global $mk_options;
+
+$post_id = global_get_post_id();
+?>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
-<?php
-if(vp_option('vpt_option.keywords')!=''):
-		echo '<meta name="keywords" content="'.vp_option('vpt_option.keywords').'" />';
-endif;
-if(vp_option('vpt_option.description')!=''):
-		echo '<meta name="description" content="'.vp_option('vpt_option.description').'" />';
-endif;
-?>
 
+<?php
+$post_set = get_post_meta( $post_id, 'post_set',true);
+$keywords = ($post_set['post_keywords']!='') ? $post_set['post_keywords'] : vp_option('vpt_option.keywords') ;
+$description = ($post_set['post_description']!='') ? $post_set['post_description'] : vp_option('vpt_option.description') ;
+?>
+<meta name="keywords" content="<?php echo $keywords;?>" />
+<meta name="description" content="<?php echo $description; ?>" />
 
 
 <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -34,7 +38,6 @@ endif;
     <![endif]-->
 
 </head>
-
 <body <?php body_class(); ?>>
 <div id="fakeLoader" class="fakeLoader"></div>
 <div id="ip-container" class="ip-container">
