@@ -83,15 +83,16 @@ if ( ! function_exists( 'nii_framework_setup' ) ) :
 	$tmpl_opt  = get_template_directory() . '/admin/option/option.php';
 
 	// metaboxes
-	$tmpl_mb1  = get_template_directory() . '/admin/metabox/sample_1.php';
-	$tmpl_mb2  = get_template_directory() . '/admin/metabox/sample_2.php';
-	$tmpl_mb3  = get_template_directory() . '/admin/metabox/sample_3.php';
-	$tmpl_mb4  = get_template_directory() . '/admin/metabox/sample_4.php';
-	$tmpl_mb5  = get_template_directory() . '/admin/metabox/sample_5.php';
-	$tmpl_mb6  = get_template_directory() . '/admin/metabox/sample_6.php';
-	$tmpl_mb6  = get_template_directory() . '/admin/metabox/sample_6.php';
-	$tmpl_mb7  = get_template_directory() . '/admin/metabox/sample_7.php';
-	$tmpl_mb8  = get_template_directory() . '/admin/metabox/sample_8.php';
+	// $tmpl_mb1  = get_template_directory() . '/admin/metabox/sample_1.php';
+	// $tmpl_mb2  = get_template_directory() . '/admin/metabox/sample_2.php';
+	// $tmpl_mb3  = get_template_directory() . '/admin/metabox/sample_3.php';
+	// $tmpl_mb4  = get_template_directory() . '/admin/metabox/sample_4.php';
+	// $tmpl_mb5  = get_template_directory() . '/admin/metabox/sample_5.php';
+	// $tmpl_mb6  = get_template_directory() . '/admin/metabox/sample_6.php';
+	// $tmpl_mb6  = get_template_directory() . '/admin/metabox/sample_6.php';
+	// $tmpl_mb7  = get_template_directory() . '/admin/metabox/sample_7.php';
+	// $tmpl_mb8  = get_template_directory() . '/admin/metabox/sample_8.php';
+	$tmpl_post  = get_template_directory() . '/admin/metabox/post.php';
 	$tmpl_teams  = get_template_directory() . '/admin/metabox/teams.php';
 	$tmpl_page  = get_template_directory() . '/admin/metabox/page.php';
 	$tmpl_case  = get_template_directory() . '/admin/metabox/case.php';
@@ -121,14 +122,15 @@ if ( ! function_exists( 'nii_framework_setup' ) ) :
 	/**
 	 * Create instances of Metaboxes
 	 */
-	$mb1 = new VP_Metabox($tmpl_mb1);
-	$mb2 = new VP_Metabox($tmpl_mb2);
-	$mb3 = new VP_Metabox($tmpl_mb3);
-	$mb4 = new VP_Metabox($tmpl_mb4);
-	$mb5 = new VP_Metabox($tmpl_mb5);
-	$mb6 = new VP_Metabox($tmpl_mb6);
-	$mb7 = new VP_Metabox($tmpl_mb7);
-	$mb8 = new VP_Metabox($tmpl_mb8);
+	// $mb1 = new VP_Metabox($tmpl_mb1);
+	// $mb2 = new VP_Metabox($tmpl_mb2);
+	// $mb3 = new VP_Metabox($tmpl_mb3);
+	// $mb4 = new VP_Metabox($tmpl_mb4);
+	// $mb5 = new VP_Metabox($tmpl_mb5);
+	// $mb6 = new VP_Metabox($tmpl_mb6);
+	// $mb7 = new VP_Metabox($tmpl_mb7);
+	// $mb8 = new VP_Metabox($tmpl_mb8);
+	$post = new VP_Metabox($tmpl_post);
 	$teams = new VP_Metabox($tmpl_teams);
 	$page = new VP_Metabox($tmpl_page);
 	$case = new VP_Metabox($tmpl_case);
